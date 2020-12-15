@@ -24,13 +24,6 @@ def login_check(email_id, password):
 def sandEmail(body, subject, reciever, attachment):
     sender = data[0]
     password = data[1]
-
-    
-    # get the password in the gmail (manage your google account, click on the avatar on the right)
-    # then go to security (right) and app password (center)
-    # insert the password and then choose mail and this computer and then generate
-    # copy the password generated here
-    # put the email of the receiver here
     
     #Setup the MIME
     message = MIMEMultipart()
